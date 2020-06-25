@@ -3,7 +3,6 @@ self.addEventListener('install', (event) => {
         caches.open('fxcalc-v1')
             .then(cache => cache.addAll([
                 'index.html',
-                'app.js',
                 'icon512.png',
                 'icon192.png',
                 'icon16.png',
